@@ -9,13 +9,13 @@
         android:id="@+id/FirstFragment"
         android:name="com.example.madlevel3task1.StartFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_start">
     </fragment>
 
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.madlevel3task1.RatingFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_rating">
     </fragment>
 </navigation>

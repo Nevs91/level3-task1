@@ -24,6 +24,7 @@ class StartFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // Click event to show the rating fragment
         btnStartRating.setOnClickListener {
             findNavController().navigate(
                 R.id.action_StartFragment_to_RatingFragment

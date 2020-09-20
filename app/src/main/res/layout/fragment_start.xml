@@ -7,7 +7,7 @@
     tools:context=".StartFragment">
 
     <TextView
-        android:id="@+id/txt_title"
+        android:id="@+id/tvTitle"
         style="@android:style/TextAppearance.Material.Headline"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -16,14 +16,14 @@
         android:layout_marginBottom="8dp"
         android:gravity="center_horizontal"
         android:text="@string/title_start_fragment"
-        app:layout_constraintBottom_toTopOf="@+id/txt_header"
+        app:layout_constraintBottom_toTopOf="@+id/tvHeader"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
-        android:id="@+id/txt_header"
+        android:id="@+id/tvHeader"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
 
@@ -35,7 +35,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btnStartRating"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_title" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
     <Button
         android:id="@+id/btnStartRating"
@@ -47,6 +47,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_header" />
-
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader" />
 </androidx.constraintlayout.widget.ConstraintLayout>

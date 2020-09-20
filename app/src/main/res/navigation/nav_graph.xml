@@ -31,7 +31,6 @@
             app:enterAnim="@anim/fragment_open_enter"
             app:destination="@id/SummaryFragment">
         </action>
-
     </fragment>
 
     <fragment
@@ -41,7 +40,7 @@
         tools:layout="@layout/fragment_summary" >
 
         <action
-            android:id="@+id/action_SummaryFragment_to_StartFragment"
+            android:id="@+id/action_summaryFragment_to_startFragment"
             app:popUpToInclusive="true"
             app:popUpTo="@id/StartFragment"
             app:destination="@id/StartFragment" />
